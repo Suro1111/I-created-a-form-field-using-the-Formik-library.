@@ -1,0 +1,124 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1440px;
+  margin: auto;
+}
+
+.section1 {
+  background: #f0f2f5;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 0;
+  padding: 20px;
+  margin: 0;
+}
+
+.error {
+  color: red;
+  font-size: 14px;
+}
+
+h1 {
+  text-align: center;
+  color: blue;
+  font: bold 3em sans-serif;
+  line-height: 100px;
+}
+
+.form {
+  background: #fff;
+  max-width: 600px;
+  width: 100%;
+  border-radius: 10px;
+  text-align: center;
+  font-family: sans-serif;
+  font-size: 14px;
+  padding: 20px 0;
+}
+.form .box {
+  text-align: start;
+  display: flex;
+  flex-direction: column;
+  justify-content: unset;
+  align-items: unset;
+  gap: 10px;
+  padding: 20px;
+  margin: 0;
+}
+.form .input {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  padding: 20px;
+  margin: 0;
+  display: inline-flex;
+  width: 50%;
+}
+.form .input .inp {
+  padding: 10px;
+  border-radius: 10px;
+  outline: none;
+  border: 2px solid grey;
+  width: 100%;
+}
+.form .selectBlock {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  padding: 0 20px;
+  margin: 0;
+}
+.form .selectBlock .select {
+  width: 100%;
+  padding: 10px 20px;
+  border-radius: 10px;
+}
+.form .selectBlock label {
+  border: 2px solid rgb(186, 186, 186);
+  cursor: pointer;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  padding: 10px 20px;
+  margin: 10px 0;
+  width: 100%;
+  border-radius: 10px;
+}
+.form .inputBox {
+  padding: 0 20px;
+}
+.form .inputBox .inputBig {
+  width: 100%;
+  padding: 10px;
+  border-radius: 10px;
+  outline: none;
+  border: 2px solid rgb(186, 186, 186);
+  margin: 5px 0;
+}
+.form .button {
+  padding: 10px 50px;
+  margin: 20px 0;
+  border-radius: 10px;
+  border: 0;
+  background: rgb(26, 179, 26);
+  color: #fff;
+  cursor: pointer;
+  font: bold 1.2em sans-serif;
+}
+.form .button:hover {
+  color: #c6c3c3;
+}/*# sourceMappingURL=Form.module.css.map */

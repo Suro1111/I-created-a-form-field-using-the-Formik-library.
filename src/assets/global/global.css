@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1440px;
+  margin: auto;
+}
+
+.section1 {
+  background: #f0f2f5;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 0;
+  padding: 20px;
+  margin: 0;
+}
+
+.error {
+  color: red;
+  font-size: 14px;
+}/*# sourceMappingURL=global.css.map */
