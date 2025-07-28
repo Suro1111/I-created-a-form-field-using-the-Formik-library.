@@ -3,9 +3,7 @@ import { validateSchem } from "../../schema.js";
 
 import style from "./Form.module.css";
 
-export function FormBlock({ globalData }) {
-  console.log();
-
+export function FormBlock({ globalData }) {  
   return (
     <>
       <h1>facebook</h1>
@@ -56,15 +54,15 @@ export function FormBlock({ globalData }) {
             </Field>
             <Field as="select" className={style.select} name="day">
               {globalData[0].day.map((d) => (
-                <option key={d.id} value={d.value}>
-                  {d.title}
+                <option key={d} value={d}>
+                  {d}
                 </option>
               ))}
             </Field>
             <Field as="select" className={style.select} name="year">
               {globalData[0].year.map((y) => (
-                <option key={y.id} value={y.value}>
-                  {y.title}
+                <option key={y} value={y}>
+                  {y}
                 </option>
               ))}
             </Field>
